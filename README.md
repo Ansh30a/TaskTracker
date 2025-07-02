@@ -34,7 +34,7 @@ A modern, responsive personal task management application built with React. This
    ```
 
 4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:5173](http://localhost:5173)
 
 ## 🧰 Technologies Used
 - **React.js** - Frontend framework with hooks
@@ -45,21 +45,20 @@ A modern, responsive personal task management application built with React. This
 ## 📁 Project Structure
 ```
 task-tracker/
-├── public/
-│   └── index.html
+├
 ├── src/
 │   ├── components/
-│   │   ├── Login.js
-│   │   ├── TaskForm.js
-│   │   ├── TaskItem.js
-│   │   ├── TaskList.js
-│   │   └── TaskFilter.js
+│   │   ├── Login.jsx
+│   │   ├── TaskForm.jsx
+│   │   ├── TaskItem.jsx
+│   │   ├── TaskList.jsx
+│   │   └── TaskFilter.jsx
 │   ├── utils/
 │   │   └── localStorage.js
 │   ├── styles/
 │   │   └── App.css
-│   ├── App.js
-│   └── index.js
+│   ├── App.jsx
+│   └── main.jsx
 ├── README.md
 └── package.json
 ```
@@ -104,19 +103,6 @@ task-tracker/
 6. Use the menu button (≡) to delete tasks
 7. Filter tasks using the All/Completed/Pending tabs
 
-## 🔗 Live Demo
-[Add your deployed URL here]
-
-## 🖼 Screenshots
-[Include screenshots of login screen and task dashboard]
-
-## 📝 Development Notes
-- Built using React functional components with hooks
-- No external state management libraries used
-- Follows React best practices for component organization
-- Implements proper error handling and edge cases
-- Uses modern CSS features for styling
-
 ## 🚀 Deployment
 The application can be deployed to:
 - **Netlify**: Drag and drop the build folder
@@ -128,17 +114,5 @@ Build the project for production:
 npm run build
 ```
 
-## 🔧 Available Scripts
-- `npm start` - Runs the app in development mode
-- `npm run build` - Builds the app for production
-- `npm test` - Launches the test runner
-- `npm run eject` - Ejects from Create React App
-
 ## 🐛 Known Issues
 None currently identified. Please report any bugs or issues.
-
-## 🤝 Contributing
-This is an intern assignment project. For improvements or suggestions, please create an issue or pull request.
-
-## 📄 License
-This project is created for educational purposes as part of an internship assignment.
